@@ -1,0 +1,25 @@
+body{
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    font-family:inherit;
+    font-weight: 400px;
+    background: linear-gradient(to right,red,YELLOW,rgb(0, 238, 255),rgb(0, 255, 34));
+}
+
+h1{
+    justify-self: center;
+    background: linear-gradient(#f446fa,#fa4659,#f446fa,#46eefa);
+}
+
+a{
+    justify-self: center;
+    color: white;
+    text-decoration: none;
+}

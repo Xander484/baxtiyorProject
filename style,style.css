@@ -1,0 +1,81 @@
+
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #fa4659,rgb(0,238,255),#fa4659);
+}
+button {
+    background-color: rebeccapurple;
+    padding: 10px;
+    color: white;
+    font-family: inherit;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover{
+    box-shadow: 5px 5px 15px yellow;
+    padding: 10px;
+    color: white;
+    font-family: inherit;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition:  0.5s;
+}
+button:active {
+    box-shadow: 5px 5px 15px red;
+    transition:  0.5s;
+}
+
+.popup-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("Baxtiyor.jpg");
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-container.active{
+    display: flex;
+}
+
+.popup{
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    position: relative;
+}
+
+.popup button {
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 25px;
+}
+.popup button:hover{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    box-shadow: 5px 5px 15px yellow;
+    font-size: 25px;
+    transition:  0.5s;
+}
+
+.popup button:hover {
+    box-shadow: 5px 5px 15px red;
+    transition:  0.5s;
+}
